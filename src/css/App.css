@@ -1,0 +1,68 @@
+* {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #ffc8da;
+}
+
+h1, span, p{ 
+  color: #004d25;
+}
+
+.prilozhenie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: min(100%, 900px);
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.kartochka {
+  width: 100%;
+  padding: 24px;
+  border: 3px solid #ff8191;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.forma,
+.kolonka-igry {
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+}
+
+.forma {
+  width: min(100%, 360px);
+  margin: 24px auto 0;
+}
+
+.forma input,
+.forma button {
+  width: 100%;
+  min-height: 42px;
+  padding: 8px 12px;
+  border: 2px solid #53b031;
+  background: #65d673;
+  color: #fff;
+  border-radius: 8px;
+}
+
+
+
+.forma button {
+  cursor: pointer;
+}
+
+.skrytoe-nazvanie {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+::placeholder {
+  color: rgb(214, 255, 231);
+}
